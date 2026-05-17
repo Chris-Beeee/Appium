@@ -8,11 +8,11 @@ Installed locally:
 
 ### Python
 * Run pip install -r requirements.txt
-* pytest==8.2.0
+* Pytest==8.2.0
 * Appium-Python-Client==3.2.1
-* selenium==4.20.0
-* pytest-html==4.1.1
-* python-dotenv==1.0.1
+* Selenium==4.20.0
+* Pytest-html==4.1.1
+* Python-dotenv==1.0.1
 
 
 ### Configuration
