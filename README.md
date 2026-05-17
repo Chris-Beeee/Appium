@@ -1,4 +1,4 @@
-###Pre-requisites
+### Pre-requisites
 Installed locally:
 node.js
 Android Studio
@@ -6,7 +6,7 @@ Python
 Pytest
 Appium Server
 
-###Python
+### Python
 Run pip install -r requirements.txt
 pytest==8.2.0
 Appium-Python-Client==3.2.1
@@ -15,19 +15,19 @@ pytest-html==4.1.1
 python-dotenv==1.0.1
 
 
-###Configuration
+### Configuration
 [pytest]
 addopts = -v --html=report.html --self-contained-html
 testpaths = tests
 
-###Set up
+### Set-up
 Run Appium. I run it in Pycharm using the terminal for the project
 Open Android Studio
 Open Virtual Device manager (or attach to a physical device)
 install the following app on the device (drag and drop from Windows or install natively)
 https://github.com/saucelabs/my-demo-app-android/releases/download
 
-###Test scope
+### Test scope
 1) Open App
 2) Scrape front page (item name, price)
 3) Compare to (dummy ) backend
