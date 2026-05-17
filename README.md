@@ -25,7 +25,7 @@ Run Appium. I run it in Pycharm using the terminal for the project
 Open Android Studio
 Open Virtual Device manager (or attach to a physical device)
 install the following app on the device (drag and drop from Windows or install natively)
-https://github.com/saucelabs/my-demo-app-android/releases/download/2.2.0/mda-2.2.0-25.apk
+https://github.com/saucelabs/my-demo-app-android/releases/download
 
 ###Test scope
 1) Open App
