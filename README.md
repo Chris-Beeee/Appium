@@ -1,4 +1,4 @@
-Pre-requisites
+###Pre-requisites
 Installed locally:
 node.js
 Android Studio
@@ -6,7 +6,7 @@ Python
 Pytest
 Appium Server
 
-Python
+###Python
 Run pip install -r requirements.txt
 pytest==8.2.0
 Appium-Python-Client==3.2.1
@@ -15,19 +15,19 @@ pytest-html==4.1.1
 python-dotenv==1.0.1
 
 
-Configuration
+###Configuration
 [pytest]
 addopts = -v --html=report.html --self-contained-html
 testpaths = tests
 
-Set up
+###Set up
 Run Appium. I run it in Pycharm using the terminal for the project
 Open Android Studio
 Open Virtual Device manager (or attach to a physical device)
 install the following app on the device (drag and drop from Windows or install natively)
 https://github.com/saucelabs/my-demo-app-android/releases/download/2.2.0/mda-2.2.0-25.apk
 
-Test scope
+###Test scope
 1) Open App
 2) Scrape front page (item name, price)
 3) Compare to (dummy ) backend
@@ -37,5 +37,5 @@ Test scope
 7) Ingest any items that do not currently exist on dummy backend, ignore them for current run
 8) return error if any prices do not match
 
-Limitations
+###Limitations
 This app does not have a robust way to display user ratings, so I have not yet found a way to return those as well. Only to return the fact that they exist. 
