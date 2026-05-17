@@ -1,8 +1,8 @@
-### Overview
+# Overview
 This is intended as a proof-of-concept to make sure my Appium setup is working, and to demonstrate a basic front-end UI scrape with back-end verification method.
 
-### Pre-requisites
-Installed locally:
+## Pre-requisites
+### Installed locally:
 * Node.js
 * Android Studio
 * Python
