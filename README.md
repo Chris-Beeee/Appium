@@ -37,5 +37,5 @@ https://github.com/saucelabs/my-demo-app-android/releases/download
 7) Ingest any items that do not currently exist on dummy backend, ignore them for current run
 8) return error if any prices do not match
 
-###Limitations
+### Limitations
 This app does not have a robust way to display user ratings, so I have not yet found a way to return those as well. Only to return the fact that they exist. 
