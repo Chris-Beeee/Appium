@@ -16,8 +16,7 @@ Installed locally:
 
 
 ### Configuration
-Pytest.ini
-[pytest]
+[pytest.ini]
 * addopts = -v --html=report.html --self-contained-html
 * testpaths = tests
 
