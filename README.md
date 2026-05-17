@@ -1,3 +1,41 @@
-At the moment this is a POC that everything I need is installed (Appium, Android Studio and all dependencies) and the build works. 
+Pre-requisites
+Installed locally:
+node.js
+Android Studio
+Python
+Pytest
+Appium Server
 
-I will be coming back to this over time. 
+Python
+Run pip install -r requirements.txt
+pytest==8.2.0
+Appium-Python-Client==3.2.1
+selenium==4.20.0
+pytest-html==4.1.1
+python-dotenv==1.0.1
+
+
+Configuration
+[pytest]
+addopts = -v --html=report.html --self-contained-html
+testpaths = tests
+
+Set up
+Run Appium. I run it in Pycharm using the terminal for the project
+Open Android Studio
+Open Virtual Device manager (or attach to a physical device)
+install the following app on the device (drag and drop from Windows or install natively)
+https://github.com/saucelabs/my-demo-app-android/releases/download/2.2.0/mda-2.2.0-25.apk
+
+Test scope
+1) Open App
+2) Scrape front page (item name, price)
+3) Compare to (dummy ) backend
+4) Compare titles and prices for a configured number of items
+5) Scroll until number of items is reached
+6) Use Xpath to ensure all items are matched to each other correctly, avoiding mismatch due to scrolling logic
+7) Ingest any items that do not currently exist on dummy backend, ignore them for current run
+8) return error if any prices do not match
+
+Limitations
+This app does not have a robust way to display user ratings, so I have not yet found a way to return those as well. Only to return the fact that they exist. 
