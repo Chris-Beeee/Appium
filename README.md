@@ -1,10 +1,10 @@
 ### Pre-requisites
 Installed locally:
-node.js
-Android Studio
-Python
-Pytest
-Appium Server
+* node.js
+* Android Studio
+* Python
+* Pytest
+* Appium Server
 
 ### Python
 Run pip install -r requirements.txt
