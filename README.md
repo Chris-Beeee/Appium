@@ -7,25 +7,25 @@ Installed locally:
 * Appium Server
 
 ### Python
-Run pip install -r requirements.txt
-pytest==8.2.0
-Appium-Python-Client==3.2.1
-selenium==4.20.0
-pytest-html==4.1.1
-python-dotenv==1.0.1
+* Run pip install -r requirements.txt
+* pytest==8.2.0
+* Appium-Python-Client==3.2.1
+* selenium==4.20.0
+* pytest-html==4.1.1
+* python-dotenv==1.0.1
 
 
 ### Configuration
 [pytest]
-addopts = -v --html=report.html --self-contained-html
-testpaths = tests
+* addopts = -v --html=report.html --self-contained-html
+* testpaths = tests
 
 ### Set-up
-Run Appium. I run it in Pycharm using the terminal for the project
-Open Android Studio
-Open Virtual Device manager (or attach to a physical device)
-install the following app on the device (drag and drop from Windows or install natively)
-https://github.com/saucelabs/my-demo-app-android/releases/download
+* Run Appium. I run it in Pycharm using the terminal for the project
+* Open Android Studio
+* Open Virtual Device manager (or attach to a physical device via ADB)
+* install the following app on the device (drag and drop from Windows or install natively)
+* https://github.com/saucelabs/my-demo-app-android/releases/download
 
 ### Test scope
 1) Open App
