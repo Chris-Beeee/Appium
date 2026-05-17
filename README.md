@@ -30,12 +30,12 @@ Installed locally:
 ### Test scope
 1) Open App
 2) Scrape front page (item name, price)
-3) Compare to (dummy ) backend
-4) Compare titles and prices for a configured number of items
-5) Scroll until number of items is reached
-6) Use Xpath to ensure all items are matched to each other correctly, avoiding mismatch due to scrolling logic
-7) Ingest any items that do not currently exist on dummy backend, ignore them for current run
-8) return error if any prices do not match
+3) Ingest any items that do not currently exist on dummy backend, ignore them for current run
+4) Compare to (dummy ) backend
+5) Compare titles and prices for a configured number of items
+6) Scroll until number of items is reached
+7) Use Xpath to ensure all items are matched to each other correctly, avoiding mismatch due to scrolling logic
+8) Return error if any item prices do not match
 
 ### Limitations
 This app does not have a robust way to display user ratings, so I have not yet found a way to return those as well. Only to return the fact that they exist. 
