@@ -1,3 +1,6 @@
+### Overview
+This is intended as a proof-of-concept to make sure my Appium setup is working, and to demonstrate a basic front-end UI scrape with back-end verification method.
+
 ### Pre-requisites
 Installed locally:
 * Node.js
@@ -13,7 +16,6 @@ Installed locally:
 * Selenium==4.20.0
 * Pytest-html==4.1.1
 * Python-dotenv==1.0.1
-
 
 ### Configuration
 [pytest.ini]
@@ -39,3 +41,14 @@ Installed locally:
 
 ### Limitations
 This app does not have a robust way to display user ratings, so I have not yet found a way to return those as well. Only to return the fact that they exist. 
+
+### How to Run
+* Powershell/CMD
+* # Create the virtual environment
+python -m venv venv
+# Activate 
+.\venv\Scripts\Activate.ps1
+# Install dependencies
+pip install -r requirements.txt
+# Run tests
+pytest
