@@ -1,6 +1,6 @@
 ### Pre-requisites
 Installed locally:
-* node.js
+* Node.js
 * Android Studio
 * Python
 * Pytest
